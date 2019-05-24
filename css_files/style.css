@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(0,0,0, 0.8);
+}
+
+
+nav#menu{
+    position: absolute;
+    margin-left: 80px;
+}
+nav#menu li{
+    color: rgba(255, 255,255, 0.8);
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 150px;
+}
+
+img#car{
+    position: relative;
+    top:100px;
+    left: 65px;
+    width: 90%;
+}
+
+h2#caption{
+    position: absolute;
+    color:rgba(0, 0, 0, 0.8);
+    top:200px;
+    left:200px;
+    font-weight: bolder;
+}
